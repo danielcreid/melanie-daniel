@@ -1,0 +1,14 @@
+.footer {
+    margin-top: 5rem;
+    padding: 5rem 0;
+    border-top: .5rem solid $bgray-05;
+    text-align: center;
+    
+    .love-is-a-turtle { margin: 0 auto 2.5rem auto; }
+    
+    h1 {
+        font-family: $scriptFontFamily;
+        font-size: 4.8rem;
+        color: $bgray-01;
+    }
+}

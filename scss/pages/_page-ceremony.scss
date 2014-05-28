@@ -1,0 +1,34 @@
+.ceremony {
+    h2 { font-weight: 700; }
+
+    .map {
+        img {
+            width: 100%;
+            border: 5px solid $bgray-04;
+        }
+    }
+
+    @media screen and #{$medium-screens} {
+        .info-wrap,
+        .map {
+            float: right;
+            width: 50%;
+        }
+
+        .map {
+            display: block;
+            padding-right: $gutter-medium;
+        }
+    }
+
+    @media screen and #{$large-screens} {
+
+        .map,
+        .info-actions { padding-right: $gutter-large; }
+    }
+
+    @media screen and #{$xlarge-screens} {
+        .map,
+        .info-actions { padding-right: $gutter-xlarge; }
+    }
+}

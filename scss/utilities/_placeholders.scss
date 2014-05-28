@@ -1,0 +1,19 @@
+%clearfix { @include clearfix; }
+
+%visuallyHidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+%basicLinkStyle {
+    color: $blue-01;
+    text-decoration: none;
+    
+    &:hover { text-decoration: underline; }
+}

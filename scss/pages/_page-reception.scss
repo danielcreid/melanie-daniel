@@ -1,0 +1,33 @@
+.reception {
+    h2 { font-weight: 700; }
+
+    .map {
+        img {
+            width: 100%;
+            border: 5px solid $bgray-04;
+        }
+    }
+
+    @media screen and #{$medium-screens} {
+        .info-wrap,
+        .map {
+            float: left;
+            width: 50%;
+        }
+
+        .map {
+            display: block;
+            padding-left: $gutter-medium;
+        }
+    }
+
+    @media screen and #{$large-screens} {
+        .map,
+        .info-actions { padding-left: $gutter-large; }
+    }
+
+    @media screen and #{$xlarge-screens} {
+        .map,
+        .info-actions { padding-left: $gutter-xlarge; }
+    }
+}

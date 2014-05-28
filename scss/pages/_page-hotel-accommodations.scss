@@ -1,0 +1,49 @@
+.hotel-accommodations {
+    h2 { font-weight: 700; }
+
+    .amenities {
+        padding: $gutter-small;
+        border: 5px solid $bgray-04;
+
+        h3 { font-size: 1.8rem; }
+
+        ul {
+            padding-left: 2rem;
+        }
+
+        li {
+            margin-top: 1rem;
+            line-height: 1.4;
+
+            &:before {
+                content: '\2022';
+                position: relative;
+                left: -2.2rem;
+                margin-right: -1.8rem;
+                color: $gray-06;
+            }
+        }
+    }
+
+    @media screen and #{$medium-screens} {
+        .info-wrap,
+        .amenities-wrap {
+            float: left;
+            width: 50%;
+        }
+
+        .amenities-wrap {
+            padding-left: $gutter-medium;
+        }
+    }
+
+    @media screen and #{$large-screens} {
+        .amenities-wrap,
+        .info-actions { padding-left: $gutter-large; }
+    }
+
+    @media screen and #{$xlarge-screens} {
+        .amenities-wrap,
+        .info-actions { padding-left: $gutter-xlarge; }
+    }
+}
