@@ -1,0 +1,48 @@
+.our-registries {
+    .registry-logo {
+        display: block;
+        vertical-align: middle;
+        margin: 2.5rem auto 0 auto;
+
+        &:first-child { margin-top: 0; }
+    }
+
+    .macys {
+        height: 53px;
+        width: 200px;
+        background: url('images/macys-logo_gray.png') center center no-repeat;
+
+        &:hover { background-image: url('images/macys-logo_color.png'); }
+    }
+
+    .target {
+        height: 100px;
+        width: 81px;
+        background: url('images/target-logo_gray.png') center center no-repeat;
+
+        &:hover { background-image: url('images/target-logo_color.png'); }
+    }
+
+    .bbb {
+        height: 63px;
+        width: 200px;
+        background: url('images/bbb-logo_gray.png') center center no-repeat;
+
+        &:hover { background-image: url('images/bbb-logo_color.png'); }
+    }
+
+    @media screen and #{$medium-screens} {
+        .registry-logo {
+            display: inline-block;
+            margin: 0 -3px 0 0;
+            padding-left: $gutter-medium;
+            width: 33.3333%;
+
+            &:first-child { padding-left: 0; }
+        }
+
+        .macys { background-position: center right; }
+
+        .bbb { background-position: center left; }
+    }
+}

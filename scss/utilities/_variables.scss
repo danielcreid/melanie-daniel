@@ -1,0 +1,52 @@
+$sansFontFamily: 'futura-pt', Helvetica, sans-serif;
+$scriptFontFamily: 'monterey', sans-serif;
+$iconFont:  'icon-font';
+
+// Colors
+
+$blue-01: #00A8CB;//#47a5bc;
+$blue-02: #6cb7c9;
+$blue-03: #91c9d7;
+$blue-04: #b5dbe4;
+$blue-05: #daedf2;
+
+$orange-01: #F9A351;//#f7a64f;
+$orange-02: #f9b872;
+$orange-03: #faca95;
+$orange-04: lighten($orange-01, 15%);//#fcdbb9;
+$orange-05: #fdeddc;
+
+$bgray-01:  #C8CACC;//#b6bdbf;
+$bgray-02:  tint($bgray-01, 20%);
+$bgray-03:  tint($bgray-01, 40%);
+$bgray-04:  tint($bgray-01, 60%);
+$bgray-05:  tint($bgray-01, 70%);
+
+$black: #000;
+$gray-01: shade($bgray-01, 60%);
+$gray-02: shade($bgray-01, 50%);
+$gray-03: shade($bgray-01, 40%);
+$gray-04: shade($bgray-01, 30%);
+$gray-05: shade($bgray-01, 20%);
+$gray-06: shade($bgray-01, 10%);
+$gray-07: $bgray-01;
+$gray-08: lighten($bgray-01, 10%);
+$gray-09: lighten($bgray-01, 20%);
+$white: #fff;
+
+
+// Media Query Related Variables
+
+$gutter-small: 1rem;
+$gutter-medium: 1.5rem;
+$gutter-large: 2rem;
+$gutter-xlarge: 2.5rem;
+
+$medium-screens: '(min-width: 755px)';
+$large-screens: '(min-width: 1024px)';
+$xlarge-screens: '(min-width: 1280px)';
+
+// General Variables
+
+$navBarHeight: 5rem;
+$siteMaxWidth: 1300px;

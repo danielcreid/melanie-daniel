@@ -1,0 +1,26 @@
+[class*="icon-"] {
+	font-family: 'icon-font';
+	speak: none;
+	font-style: normal;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	// Better Font Rendering
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+	content: "\e600";
+}
+.icon-earth:before {
+	content: "\e601";
+}
+.icon-location:before {
+	content: "\e602";
+}
+.icon-heart:before {
+	content: "\e603";
+}
